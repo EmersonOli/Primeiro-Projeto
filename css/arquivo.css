@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+  
+    margin: 0;
+    padding: 0%;
+}
+
+@media only screen and (max-width: 900px){
+    .navbar { width: 100%;}
+
+}
+
+
+body {
+margin: 0%;
+background-image: url('../img/Vegano.jpeg') ;
+background-size: auto;
+background-repeat: no-repeat;
+
+
+
+}    
+
+
+
+
+
+
+.navbar{
+    display:flex;
+    flex-flow: row wrap;
+    height: 150px;
+    margin-right: 0%;
+    background: black;
+    justify-content:center;
+    align-items: center;
+    
+    
+    
+    
+
+}
+
+.Logo{
+    flex: 150%;
+    margin-left: 150px;
+   /* border: 1px solid red; */
+    text-align:left ;
+   
+    
+    
+    
+
+
+
+}
+
+.Logo h1{
+    font-family: 'Lobster', cursive;
+    color: #180F4A;
+    font-size: 500px;
+
+}
+.menu{
+    flex: 70%;
+    /*border: 1px solid green;*/
+    text-align:center;
+   margin-right: 5%;
+   max-width: 400px 150px;
+   list-style: none;
+   display: contents;
+
+   
+}
+
+.menu a{
+    color: white;
+    padding: 10px ;
+    text-decoration:underline; 
+    font-size: 15px;
+    letter-spacing: 5px;
+    margin-left: 5px;
+
+    
+  
+
+}
+.menu a:hover{
+    color: green;
+    background-color: white;
+    border-top: 20% solid  black;
+
+}
+
+#botao{
+    background: #green;
+    color: white;
+    border-radius: 10px;
+    margin-right: 0%;
+
+}
+
+#botao:hover{
+    border: none;
+    background: rgba(34, 255, 163, 0.533);
+
+}
+
+
+
+
+
+.headline{
+    margin-left: 2%;
+     flex: 40%;
+     line-height: 35px;
+     width: 400px;
+    /* border: 1px solid black; */
+
+}
+
+.headline h2{
+    font-weight: 700;
+    font-size: 15px;
+    position: left;
+    top: 5px;
+    text-align: justify;
+    font-family:Arial, Helvetica, sans-serif;
+
+
+}
+
+.texto{
+    
+    flex: 50%;
+   max-width: 480px 1200px;
+    
+    
+
+    
+ }
+   
+  
+       
+   
+   .texto h3{
+    font-weight: 700;
+    font-size: 15px;
+    text-indent: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    width: 400px;
+    text-align: justify;
+    
+    
+    
+   
+    
+  
+
+}
+
+.title {
+	font-family: "Cairo";
+	text-align: left;
+	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	justify-content: center;
+	height: 10vh;
+	letter-spacing: 1px;
+	line-height:2
+   
+}
+
+h1 {
+	background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 21px;
+	margin: 10px 0;
+
+}
+
+
+
+.Part {
+    font-weight: 700;
+    font-size: 12px;
+    text-align: left ;
+    text-indent: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 60px;
+}
+
+
+
+
+.Part a {
+
+    background: -webkit-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+    background: -moz-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+    background: -o-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+    background: -ms-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+    background: linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+    border: 1px solid #CCCCCE;
+    border-radius: 10px;
+    box-shadow: 0 3px 0 rgba(0, 0, 0, .3),
+                  0 2px 7px rgba(0, 0, 0, 0.2);
+    color: #616165;
+    display: block;
+    font-family: "Trebuchet MS";
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 10px;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow:1px 1px 0 #FFF;
+    padding: 3px 5px;
+    position: relative;
+    width: 80px;
+   
+
+
+}
+
+    
+
+
+
+     
+    
